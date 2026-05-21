@@ -2,16 +2,16 @@
 
 [![npm version](https://img.shields.io/npm/v/@divclass/lightbox.svg)](https://www.npmjs.com/package/@divclass/lightbox)
 
-**Lightweight 32 KB (≈11 KB gzipped), dependency-free lightbox** for images and inline content.  
+Modern lightweight lightbox for images and inline content.  
 Supports **smart zoom animations, virtual slides, swipe & drag gestures**, and works on **all modern browsers and touch devices**.
-
-[Live Demo](https://lightbox.divclass.org)
+ 
+[🌍 Live Demo](https://lightbox.divclass.org)
 
 ---
 
 ## 🌟 Key Features
 
-* **Lightweight — 32 KB (≈11 KB gzipped)**  
+* **38 KB** (≈**13 KB gzipped**) — extremely lightweight  
   Full-featured lightbox without heavy dependencies.
 * **Virtual Slides**  
   Only **3 DOM nodes** exist at a time for optimal performance.
@@ -31,6 +31,7 @@ Supports **smart zoom animations, virtual slides, swipe & drag gestures**, and w
   Display any HTML content and even open nested modals.
 * **Smart Image Preloading**  
   Smooth navigation with optimized image loading.
+* **Image Zoom** with +/- buttons, single click and drag
 * **Keyboard Navigation**
 * **Global Controls**
   - `DivclassLightbox.closeAll()`
@@ -38,13 +39,6 @@ Supports **smart zoom animations, virtual slides, swipe & drag gestures**, and w
 * **Customizable Animations**
 
 ---
-
-## 🌍 Demo
-
-https://lightbox.divclass.org
-
----
-
 
 ## 📦 Installation
 
@@ -226,6 +220,7 @@ DivclassLightbox.show({
 | icon                   | string                                               | SVG            | Close button icon                                                                       |
 | thumbnailsIcon         | string                                               | SVG            | Thumbnails toggle icon                                                                  |
 | arrowIcon              | string                                               | SVG            | Arrow navigation icon                                                                   |
+| maxZoom                | number                                               | 3              | Maximum zoom level                                                                      |
 | showThumbnailsOnOpen   | boolean                                              | `true`         | Show thumbnails when gallery opens                                                      |
 | backdropClick          | "close" \| false                                     | `"close"`      | Close modal when clicking backdrop (inline only)                                        |
 | closeExisting          | boolean                                              | `false`        | Closes any currently open lightbox before opening a new one.                            |

@@ -2,6 +2,16 @@
 
 ---
 
+## [1.1.2] - 2026-05-21
+### Added
+- **Image zoom functionality**
+  - +/- zoom control buttons
+  - Single click on image to zoom in
+  - Drag support to move zoomed image
+  - Smooth zoom animation
+
+---
+
 ## [1.0.2] - 2026-03-13
 ### Added
 - Initial release of **Divclass Lightbox**

@@ -2,6 +2,19 @@
 
 ---
 
+## [1.1.4] - 2026-05-22
+### Fixed
+- Prevent crash when `this.limits` is undefined
+
+---
+
+## [1.1.3] - 2026-05-22
+
+### Changed
+- Improve zoomed image drag threshold and movement logic
+
+---
+
 ## [1.1.2] - 2026-05-21
 ### Added
 - **Image zoom functionality**

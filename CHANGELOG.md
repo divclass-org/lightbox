@@ -2,6 +2,12 @@
 
 ---
 
+## [1.1.5] - 2026-06-02
+### Added
+- Pinch-to-zoom support for images
+
+---
+
 ## [1.1.4] - 2026-05-22
 ### Fixed
 - Prevent crash when `this.limits` is undefined

@@ -11,7 +11,7 @@ Supports **smart zoom animations, virtual slides, swipe & drag gestures**, and w
 
 ## 🌟 Key Features
 
-* **38 KB** (≈**13 KB gzipped**) — extremely lightweight  
+* **42 KB** (≈**14 KB gzipped**) — extremely lightweight  
   Full-featured lightbox without heavy dependencies.
 * **Virtual Slides**  
   Only **3 DOM nodes** exist at a time for optimal performance.
@@ -22,9 +22,11 @@ Supports **smart zoom animations, virtual slides, swipe & drag gestures**, and w
 * **Easy Integration**  
   Initialize via **data attributes or selectors**.
 * **Smart Zoom From Origin**  
-  Smooth animation from thumbnail → full image without predefined image sizes.
+  Smooth animation from thumbnail → full image **without predefined image sizes**.
 * **Swipe & Drag Gestures**  
   Intuitive navigation on touch devices
+* **Pinch-to-Zoom Support**  
+  Smooth multi-touch zooming and panning for images on mobile devices.
 * **Animated Thumbnails & Data Galleries**  
   Create galleries instantly using `data-gallery`.
 * **Inline Content & Nested Modals**  
@@ -36,7 +38,6 @@ Supports **smart zoom animations, virtual slides, swipe & drag gestures**, and w
 * **Global Controls**
   - `DivclassLightbox.closeAll()`
   - `DivclassLightbox.destroyAll()`
-* **Customizable Animations**
 
 ---
 
